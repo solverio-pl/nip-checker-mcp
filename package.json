@@ -1,5 +1,5 @@
 {
-  "name": "@solverio/nip-checker-mcp",
+  "name": "@solverio-pl/nip-checker-mcp",
   "version": "1.0.0",
   "description": "MCP server for checking Polish NIP numbers in Ministry of Finance VAT database",
   "main": "build/index.js",
@@ -42,14 +42,14 @@
     "claude",
     "ai-tools"
   ],
-  "author": "Solverio <contact@solverio.pl>",
+  "author": "Solverio Janusz Chalimoniuk",
   "license": "MIT",
-  "homepage": "https://github.com/solverio/nip-checker-mcp#readme",
+  "homepage": "https://github.com/solverio-pl/nip-checker-mcp#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/solverio/nip-checker-mcp.git"
+    "url": "git+https://github.com/solverio-pl/nip-checker-mcp.git"
   },
   "bugs": {
-    "url": "https://github.com/solverio/nip-checker-mcp/issues"
+    "url": "https://github.com/solverio-pl/nip-checker-mcp/issues"
   }
 }
