@@ -1,6 +1,6 @@
 {
   "name": "@solverio-pl/nip-checker-mcp",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "MCP server for checking Polish NIP numbers in Ministry of Finance VAT database",
   "main": "build/index.js",
   "type": "module",

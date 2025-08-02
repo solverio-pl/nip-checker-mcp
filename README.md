@@ -20,7 +20,7 @@ Add this to your Claude Desktop configuration:
   "mcpServers": {
     "nip-checker": {
       "command": "npx",
-      "args": ["-y", "@solverio/nip-checker-mcp@latest"]
+      "args": ["-y", "@solverio-pl/nip-checker-mcp@latest"]
     }
   }
 }
@@ -30,18 +30,18 @@ Add this to your Claude Desktop configuration:
 
 ### Option 1: Direct npx usage (No installation needed)
 ```bash
-npx @solverio/nip-checker-mcp@latest
+npx @solverio-pl/nip-checker-mcp@latest
 ```
 
 ### Option 2: Global installation
 ```bash
-npm install -g @solverio/nip-checker-mcp
+npm install -g @solverio-pl/nip-checker-mcp
 nip-checker-mcp
 ```
 
 ### Option 3: Local development
 ```bash
-git clone https://github.com/solverio/nip-checker-mcp.git
+git clone https://github.com/solverio-pl/nip-checker-mcp.git
 cd nip-checker-mcp
 npm install
 npm run build
@@ -108,7 +108,7 @@ Edit: `~/Library/Application Support/Claude/claude_desktop_config.json`
   "mcpServers": {
     "nip-checker": {
       "command": "npx",
-      "args": ["-y", "@solverio/nip-checker-mcp@latest"]
+      "args": ["-y", "@solverio-pl/nip-checker-mcp@latest"]
     }
   }
 }
@@ -153,7 +153,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## Support
 
-For issues and feature requests, please use the [GitHub Issues](https://github.com/solverio/nip-checker-mcp/issues) page.
+For issues and feature requests, please use the [GitHub Issues](https://github.com/solverio-pl/nip-checker-mcp/issues) page.
 
 ---
 

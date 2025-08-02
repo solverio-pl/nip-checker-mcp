@@ -11,13 +11,13 @@ git commit -m "Initial commit - Polish NIP Checker MCP Server"
 
 ## 2. Create GitHub Repository
 
-1. Go to GitHub and create a new repository: `nip-checker-mcp`
+1. Go to GitHub and create a new repository: `nip-checker-mcp` under `solverio-pl` organization
 2. Don't initialize with README (we already have one)
 
 ## 3. Connect to GitHub
 
 ```bash
-git remote add origin https://github.com/yourusername/nip-checker-mcp.git
+git remote add origin https://github.com/solverio-pl/nip-checker-mcp.git
 git branch -M main
 git push -u origin main
 ```
@@ -57,7 +57,7 @@ Once published, users can add this to their Claude Desktop config:
   "mcpServers": {
     "nip-checker": {
       "command": "npx",
-      "args": ["-y", "@solverio/nip-checker-mcp@latest"]
+      "args": ["-y", "@solverio-pl/nip-checker-mcp@latest"]
     }
   }
 }
@@ -67,17 +67,17 @@ Once published, users can add this to their Claude Desktop config:
 
 ```bash
 # Test global installation
-npm install -g @solverio/nip-checker-mcp
+npm install -g @solverio-pl/nip-checker-mcp
 
 # Test npx usage
-npx @solverio/nip-checker-mcp@latest
+npx @solverio-pl/nip-checker-mcp@latest
 ```
 
 ## Package Name
 
-The package will be published as: `@solverio/nip-checker-mcp`
+The package will be published as: `@solverio-pl/nip-checker-mcp`
 
 Make sure to:
 1. Change the package name in package.json if needed
 2. Update GitHub repository URLs in package.json
-3. Set up NPM organization if using scoped packages (@solverio/)
+3. Set up NPM organization if using scoped packages (@solverio-pl/)
